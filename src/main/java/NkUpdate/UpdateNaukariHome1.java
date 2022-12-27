@@ -17,7 +17,7 @@ public class UpdateNaukariHome1 {
 
 	public void clickOnUpdateProfile() throws InterruptedException {
 
-		Thread.sleep(1000);
+		Thread.sleep(1500);
 		updateBtn.click();
 
 	}

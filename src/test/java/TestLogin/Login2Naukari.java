@@ -51,8 +51,9 @@ public class Login2Naukari extends InvokeBrowser {
 		// this upload resume to profile
 		uploadRusm.deleteResume(wait);
 		
-		uploadRusm.getClass();
+	
 
+		// Daily update the path of resume and just commit and push it to github daily
 		String resumepath = "C:\\Users\\Shree\\Documents\\Vishal B Chapde._Banglore_Final2022.pdf";
 		uploadRusm.uploadresume(wait, resumepath);
 
@@ -70,9 +71,9 @@ public class Login2Naukari extends InvokeBrowser {
 	@AfterClass
 	public void ClearAll() {
 
-		LoginHome = null;
-		UpProfile = null;
-		UpProfile2 = null;
+		//LoginHome = null;
+	//	UpProfile = null;
+		//UpProfile2 = null;
 
 	}
 

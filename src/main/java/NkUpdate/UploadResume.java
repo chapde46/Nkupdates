@@ -28,20 +28,20 @@ public class UploadResume {
 	}
 
 	public void deleteResume(WebDriverWait wait) throws InterruptedException {
-		Thread.sleep(1000);
+		Thread.sleep(1500);
 		resumeDeleteBtn.click();
-		Thread.sleep(1000);
-		wait.until(ExpectedConditions.visibilityOf(confirmDeletBtn));
+		Thread.sleep(1500);
+		//wait.until(ExpectedConditions.visibilityOf(confirmDeletBtn));
 		confirmDeletBtn.click();
 
 	}
 
 	public void uploadresume(WebDriverWait wait, String pathResume) throws InterruptedException {
 		Thread.sleep(1000);
-		wait.until(ExpectedConditions.visibilityOf(confirmMsgBox));
-		Thread.sleep(1000);
-		wait.until(ExpectedConditions.invisibilityOf(attachResumeBtn));
-		Thread.sleep(1000);
+		//wait.until(ExpectedConditions.visibilityOf(confirmMsgBox));
+		Thread.sleep(2000);
+		//wait.until(ExpectedConditions.invisibilityOf(attachResumeBtn));
+		Thread.sleep(2000);
 		attachResumeBtn.sendKeys(pathResume);
 		Thread.sleep(2000);
 

@@ -34,7 +34,7 @@ public class UpdateNaukariHome2 {
 
 		PageFactory.initElements(driver, this);
 		act = new Actions(driver);
-		js = ((JavascriptExecutor) driver);
+		
 	}
 
 	public void ClickUpdateResumeHeadline(String UpdateWhat) {
@@ -63,7 +63,7 @@ public class UpdateNaukariHome2 {
 		// act.moveToElement(ResumeHeadLineText).click().sendKeys(Keys.DELETE,
 		// Keys.DELETE, Keys.DELETE).build().perform();
 		Thread.sleep(1000);
-		wait.until(ExpectedConditions.visibilityOf(saveBtn));
+		//wait.until(ExpectedConditions.visibilityOf(saveBtn));
 		saveBtn.click();
 
 	}
@@ -80,7 +80,7 @@ public class UpdateNaukariHome2 {
 		// act.moveToElement(ResumeHeadLineText).click().sendKeys(Keys.DELETE,
 		// Keys.DELETE, Keys.DELETE).build().perform();
 		Thread.sleep(1000);
-		wait.until(ExpectedConditions.visibilityOf(saveBtn));
+		//wait.until(ExpectedConditions.visibilityOf(saveBtn));
 		saveBtn.click();
 
 	}
