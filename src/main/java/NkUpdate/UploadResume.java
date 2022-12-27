@@ -31,7 +31,7 @@ public class UploadResume {
 		Thread.sleep(1500);
 		resumeDeleteBtn.click();
 		Thread.sleep(1500);
-		//wait.until(ExpectedConditions.visibilityOf(confirmDeletBtn));
+		wait.until(ExpectedConditions.visibilityOf(confirmDeletBtn));
 		confirmDeletBtn.click();
 
 	}
