@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-12-27T11:50:28 IST" name="Suite" finished-at="2022-12-27T11:51:25 IST" duration-ms="56536">
+  <suite started-at="2022-12-28T13:34:57 IST" name="Suite" finished-at="2022-12-28T13:35:48 IST" duration-ms="50496">
     <groups>
     </groups>
-    <test started-at="2022-12-27T11:50:28 IST" name="Test" finished-at="2022-12-27T11:51:25 IST" duration-ms="56536">
+    <test started-at="2022-12-28T13:34:57 IST" name="Test" finished-at="2022-12-28T13:35:48 IST" duration-ms="50496">
       <class name="TestLogin.Login2Naukari">
-        <test-method is-config="true" signature="Login2App()[pri:0, instance:TestLogin.Login2Naukari@4f209819]" started-at="2022-12-27T11:50:28 IST" name="Login2App" finished-at="2022-12-27T11:50:36 IST" duration-ms="7564" status="PASS">
+        <test-method is-config="true" signature="Login2App()[pri:0, instance:TestLogin.Login2Naukari@4f209819]" started-at="2022-12-28T13:34:57 IST" name="Login2App" finished-at="2022-12-28T13:35:06 IST" duration-ms="8156" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Login2App -->
-        <test-method signature="Login2app()[pri:0, instance:TestLogin.Login2Naukari@4f209819]" started-at="2022-12-27T11:50:36 IST" name="Login2app" finished-at="2022-12-27T11:51:25 IST" duration-ms="48911" status="PASS">
+        <test-method signature="Login2app()[pri:0, instance:TestLogin.Login2Naukari@4f209819]" started-at="2022-12-28T13:35:06 IST" name="Login2app" finished-at="2022-12-28T13:35:48 IST" duration-ms="42229" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Login2app -->
-        <test-method is-config="true" signature="logout(org.testng.ITestResult)[pri:0, instance:TestLogin.Login2Naukari@4f209819]" started-at="2022-12-27T11:51:25 IST" name="logout" finished-at="2022-12-27T11:51:25 IST" duration-ms="7" status="PASS">
+        <test-method is-config="true" signature="logout(org.testng.ITestResult)[pri:0, instance:TestLogin.Login2Naukari@4f209819]" started-at="2022-12-28T13:35:48 IST" name="logout" finished-at="2022-12-28T13:35:48 IST" duration-ms="9" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -26,7 +26,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logout -->
-        <test-method is-config="true" signature="ClearAll()[pri:0, instance:TestLogin.Login2Naukari@4f209819]" started-at="2022-12-27T11:51:25 IST" name="ClearAll" finished-at="2022-12-27T11:51:25 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="ClearAll()[pri:0, instance:TestLogin.Login2Naukari@4f209819]" started-at="2022-12-28T13:35:48 IST" name="ClearAll" finished-at="2022-12-28T13:35:48 IST" duration-ms="7" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ClearAll -->

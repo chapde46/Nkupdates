@@ -41,21 +41,15 @@ public class Login2Naukari extends InvokeBrowser {
 		LoginHome.LoginNaukari(UtilityData.getExceldata(0, 0), UtilityData.getExceldata(0, 1));
 
 		UpProfile.clickOnUpdateProfile();
+		// Daily update the path of resume and just commit and push it to github daily
+		String resumepath = "C:\\Users\\Shree\\Documents\\Vishal B Chapde._Banglore_Final2022.pdf";
+		uploadRusm.uploadresume(wait, resumepath);
 
 		UpProfile2.ClickUpdateResumeHeadline("Resume Headline");
 
 		UpProfile2.clickonResumeHeadEditButton(wait);
 
 		UpProfile2.EditFinalUpdateResumeheading(wait, UtilityData.getExceldata(0, 2));
-
-		// this upload resume to profile
-		uploadRusm.deleteResume(wait);
-		
-	
-
-		// Daily update the path of resume and just commit and push it to github daily
-		String resumepath = "C:\\Users\\Shree\\Documents\\Vishal B Chapde._Banglore_Final2022.pdf";
-		uploadRusm.uploadresume(wait, resumepath);
 
 	}
 
@@ -71,9 +65,9 @@ public class Login2Naukari extends InvokeBrowser {
 	@AfterClass
 	public void ClearAll() {
 
-		//LoginHome = null;
-	//	UpProfile = null;
-		//UpProfile2 = null;
+		// LoginHome = null;
+		// UpProfile = null;
+		// UpProfile2 = null;
 
 	}
 
