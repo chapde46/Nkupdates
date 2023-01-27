@@ -42,7 +42,7 @@ public class Login2Naukari extends InvokeBrowser {
 
 		UpProfile.clickOnUpdateProfile();
 		// Daily update the path of resume and just commit and push it to github daily
-		String resumepath = "E:\\Vishal Chapde  Resume.pdf";
+		String resumepath = "C:\\Users\\Shree\\Pictures\\BlueStacks\\Vishal Chapde  Resume.pdf";
 		uploadRusm.uploadresume(wait, resumepath);
 
 		UpProfile2.ClickUpdateResumeHeadline("Resume Headline");
