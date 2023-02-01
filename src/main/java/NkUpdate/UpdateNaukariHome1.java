@@ -22,10 +22,10 @@ public class UpdateNaukariHome1 {
 	
 
 	public void clickOnUpdateProfile() throws InterruptedException {
-//		Thread.sleep(2000);
-//		if(chatbot.isDisplayed()) {
-//			closeChatbotBtn.click();
-//		}	
+		Thread.sleep(2000);
+		if(chatbot.isDisplayed()) {
+			closeChatbotBtn.click();
+		}	
 		
 		Thread.sleep(2000);
 		updateBtn.click();
