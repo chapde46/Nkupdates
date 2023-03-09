@@ -1,4 +1,12 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 51.911 s - in TestSuite
+Tests run: 4, Failures: 1, Errors: 0, Skipped: 3, Time elapsed: 4.796 s <<< FAILURE! - in TestSuite
+Login2App(TestLogin.Login2Naukari)  Time elapsed: 4.608 s  <<< FAILURE!
+org.openqa.selenium.remote.http.ConnectionFailedException: 
+Unable to establish websocket connection to http://localhost:65284/devtools/browser/cbec6cf8-5b38-450d-b9e1-416be7184d1e
+Build info: version: '4.8.1', revision: '8ebccac989'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
+Driver info: driver.version: ChromeDriver
+	at TestLogin.Login2Naukari.Login2App(Login2Naukari.java:29)
+

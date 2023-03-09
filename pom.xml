@@ -24,8 +24,9 @@
 		<dependency>
 			<groupId>org.seleniumhq.selenium</groupId>
 			<artifactId>selenium-java</artifactId>
-			<version>4.7.2</version>
+			<version>4.8.1</version>
 		</dependency>
+
 		<!-- https://mvnrepository.com/artifact/org.testng/testng -->
 		<dependency>
 			<groupId>org.testng</groupId>
@@ -43,7 +44,7 @@
 		<dependency>
 			<groupId>io.github.bonigarcia</groupId>
 			<artifactId>webdrivermanager</artifactId>
-			<version>5.3.1</version>
+			<version>5.3.2</version>
 		</dependency>
 	</dependencies>
 	<build>
@@ -68,11 +69,12 @@
 					<artifactId>maven-surefire-plugin</artifactId>
 					<version>2.22.1</version>
 					<configuration>
-					<suiteXmlFiles>
-					<suiteXmlFile>
-					VishalupdateNaukari.xml
-					</suiteXmlFile>
-					</suiteXmlFiles></configuration>
+						<suiteXmlFiles>
+							<suiteXmlFile>
+								VishalupdateNaukari.xml
+							</suiteXmlFile>
+						</suiteXmlFiles>
+					</configuration>
 				</plugin>
 				<plugin>
 					<artifactId>maven-jar-plugin</artifactId>
