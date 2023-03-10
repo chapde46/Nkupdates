@@ -40,7 +40,7 @@ public class Login2Naukari extends InvokeBrowser {
 		LoginHome.clickLoginOnHome();
 		LoginHome.LoginNaukari(UtilityData.getExceldata(0, 0), UtilityData.getExceldata(0, 1));
 
-		UpProfile.clickOnUpdateProfile();
+//		UpProfile.clickOnUpdateProfile();
 		// Daily update the path of resume and just commit and push it to github daily
 		String resumepath = "C:\\Users\\Shree\\Videos\\Captures\\Vishal Resume Updated 2023.pdf";
 		uploadRusm.uploadresume(wait, resumepath);

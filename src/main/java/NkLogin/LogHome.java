@@ -20,7 +20,10 @@ public class LogHome {
 	private WebElement userPass;
 	@FindBy(xpath = "(//div[@class='drawer-wrapper ']//form//button)[1]")
 	private WebElement LoginBtn;
+	@FindBy(xpath = "//div[@class='view-profile-wrapper']/a")
+	private WebElement completprofile;
 
+	
 	public LogHome(WebDriver driver) {
 
 		PageFactory.initElements(driver, this);
@@ -39,8 +42,8 @@ public class LogHome {
 		userPass.sendKeys(uPass);
 		Thread.sleep(1500);
 		LoginBtn.click();
-		
-		
+		Thread.sleep(1500);
+		completprofile.click();
 		
 	}
 	
